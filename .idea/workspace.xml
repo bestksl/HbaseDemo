@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a429089-9d02-4e36-9c07-a729634bc189" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/haoxuanli.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDDL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyJson.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +19,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -20,17 +41,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="352">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDDL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-278">
+              <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MyJson.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="377">
+              <caret line="160" column="34" lean-forward="true" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2682#2690#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +87,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/MyJson.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDDL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDML.java" />
       </list>
     </option>
   </component>
@@ -62,19 +102,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-2560" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -106,6 +140,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HbaseDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HbaseDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HbaseDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -119,10 +161,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.6229885" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,17 +179,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="MyJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyJson" />
+  <component name="RunManager" selected="JUnit.HbaseDemoDML.testGet">
+    <configuration name="HbaseDemoDDL.testCreateTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HbaseDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HbaseDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HbaseDemo" />
+      <option name="MAIN_CLASS_NAME" value="HbaseDemo.HbaseDemoDDL" />
+      <option name="METHOD_NAME" value="testCreateTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HbaseDemoDML.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HbaseDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HbaseDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HbaseDemo" />
+      <option name="MAIN_CLASS_NAME" value="HbaseDemo.HbaseDemoDML" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HbaseDemoDML.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HbaseDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HbaseDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HbaseDemo" />
+      <option name="MAIN_CLASS_NAME" value="HbaseDemo.HbaseDemoDML" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HbaseDemoDML.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HbaseDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HbaseDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HbaseDemo" />
+      <option name="MAIN_CLASS_NAME" value="HbaseDemo.HbaseDemoDML" />
+      <option name="METHOD_NAME" value="testPut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HbaseDemoDML.testScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HbaseDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HbaseDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HbaseDemo" />
+      <option name="MAIN_CLASS_NAME" value="HbaseDemo.HbaseDemoDML" />
+      <option name="METHOD_NAME" value="testScan" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyJson" />
+        <item itemvalue="JUnit.HbaseDemoDML.testGet" />
+        <item itemvalue="JUnit.HbaseDemoDML.testScan" />
+        <item itemvalue="JUnit.HbaseDemoDML.testDelete" />
+        <item itemvalue="JUnit.HbaseDemoDML.testPut" />
+        <item itemvalue="JUnit.HbaseDemoDDL.testCreateTable" />
       </list>
     </recent_temporary>
   </component>
@@ -163,25 +283,57 @@
       <workItem from="1570479899979" duration="2267000" />
       <workItem from="1570499156185" duration="1874000" />
       <workItem from="1570570472754" duration="3001000" />
-      <workItem from="1571168263104" duration="17000" />
+      <workItem from="1571168263104" duration="23353000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HbaseDemoDML_testScan - 2019.10.16 at 17h 54m 55s.xml">
+      <configuration name="HbaseDemoDML.testScan" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HbaseDemoDML_testScan - 2019.10.16 at 17h 58m 47s.xml">
+      <configuration name="HbaseDemoDML.testScan" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HbaseDemoDML_testScan - 2019.10.16 at 18h 09m 54s.xml">
+      <configuration name="HbaseDemoDML.testScan" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HbaseDemoDML_testScan - 2019.10.16 at 18h 10m 47s.xml">
+      <configuration name="HbaseDemoDML.testScan" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HbaseDemoDML_testScan - 2019.10.16 at 20h 07m 34s.xml">
+      <configuration name="HbaseDemoDML.testScan" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HbaseDemoDML_testScan - 2019.10.16 at 20h 21m 00s.xml">
+      <configuration name="HbaseDemoDML.testScan" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HbaseDemoDML_testScan - 2019.10.16 at 20h 21m 22s.xml">
+      <configuration name="HbaseDemoDML.testScan" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HbaseDemoDML_testScan - 2019.10.16 at 20h 23m 19s.xml">
+      <configuration name="HbaseDemoDML.testScan" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HbaseDemoDML_testScan - 2019.10.16 at 20h 24m 10s.xml">
+      <configuration name="HbaseDemoDML.testScan" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HbaseDemoDML_testGet - 2019.10.16 at 20h 24m 31s.xml">
+      <configuration name="HbaseDemoDML.testGet" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7159000" />
+    <option name="totallyTimeSpent" value="30495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36020407" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,17 +358,41 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyJson.java">
+    <entry file="file://$PROJECT_DIR$/HbaseDemo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="352">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDDL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="160" column="34" lean-forward="true" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2682#2690#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -277,6 +453,7 @@
             <option name="proportions">
               <list>
                 <option value="0.6229885" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
