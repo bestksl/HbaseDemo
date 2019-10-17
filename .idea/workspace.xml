@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a429089-9d02-4e36-9c07-a729634bc189" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/haoxuanli.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDDL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDML.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDDL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
+            <state relative-caret-position="416">
               <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -62,11 +56,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="160" column="34" lean-forward="true" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+            <state relative-caret-position="2448">
+              <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2682#2690#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,8 +96,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="x" value="-180" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -114,7 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,7 +147,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,6 +279,7 @@
       <workItem from="1570499156185" duration="1874000" />
       <workItem from="1570570472754" duration="3001000" />
       <workItem from="1571168263104" duration="23353000" />
+      <workItem from="1571337902938" duration="800000" />
     </task>
     <servers />
   </component>
@@ -320,20 +316,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30495000" />
+    <option name="totallyTimeSpent" value="31295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="-180" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2284345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36020407" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36020407" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,13 +354,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyJson.java" />
     <entry file="file://$PROJECT_DIR$/HbaseDemo.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -377,7 +367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDDL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
+        <state relative-caret-position="416">
           <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -387,11 +377,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HbaseDemo/HbaseDemoDML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="160" column="34" lean-forward="true" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+        <state relative-caret-position="2448">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2682#2690#0" expanded="true" />
           </folding>
         </state>
       </provider>
